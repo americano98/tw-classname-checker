@@ -2,10 +2,10 @@
 The Tailwind Error Checker Chrome extension helps you quickly identify and fix errors in your Tailwind CSS code when reviewing pull requests on Github.
 
 ### Usage
-Click on the extension icon in your Chrome browser toolbar to activate the extension.
-Wait for Github to load all the necessary code.
-The extension will scan the page for common Tailwind CSS errors and display a list of any errors found in the extension popup.
-Click on any error in the list to scroll to that error in the Github pull request.
+* Click on the extension icon in your Chrome browser toolbar to activate the extension.
+* Wait for Github to load all the necessary code.
+* The extension will scan the page for common Tailwind CSS errors and display a list of any errors found in the extension popup.
+* Click on any error in the list to scroll to that error in the Github pull request.
 
 ### List of supported errors
 * rounded-[n_px]
