@@ -1,0 +1,22 @@
+{
+  "name": "Tailwind CSS Checker",
+  "version": "0.5.0",
+  "manifest_version": 3,
+  "description": "Highlight incorrect Tailwind CSS classes in GitHub pull requests",
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://github.com/*/*/pull/*/files"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/*/pull/*/files"],
+      "js": ["content.js"],
+      "all_frames": false
+    }
+  ],
+  "action": {
+    "default_title": "Tailwind CSS Checker",
+    "default_popup": "popup.html"
+  }
+}
